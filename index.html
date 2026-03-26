@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OkeyPost - First Screen</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f7;
+    }
+  </style>
+</head>
+<body>
+  <div class="max-w-[1280px] mx-auto px-6 py-6">
+    <header class="flex items-center justify-between py-4">
+      <div class="flex items-center gap-3">
+        <img src="./Лого.png" class="h-10 w-auto" />
+      </div>
+
+      <nav class="hidden lg:flex items-center gap-8 text-[15px] text-gray-700 font-medium">
+        <a href="#" class="hover:text-sky-500 transition">Как покупать</a>
+        <a href="#" class="hover:text-sky-500 transition">Распродажи</a>
+        <a href="#" class="hover:text-sky-500 transition">Цены</a>
+        <a href="#" class="hover:text-sky-500 transition">Помощь</a>
+        <a href="#" class="hover:text-sky-500 transition">Бонусы</a>
+        <a href="#" class="hover:text-sky-500 transition">Блог</a>
+        <a href="#" class="hover:text-sky-500 transition">Магазины</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <button class="text-gray-700 font-medium hover:text-sky-500 transition">Вход</button>
+        <button class="bg-green-400 hover:bg-green-500 text-white font-semibold px-6 py-3 rounded-full transition shadow-sm">
+          Связаться с нами
+        </button>
+      </div>
+    </header>
+    <section class="mt-4 rounded-[34px] overflow-hidden bg-gradient-to-r from-indigo-600 to-sky-400 px-8 md:px-12 lg:px-16 py-10 md:py-14 lg:py-16">
+      <div class="grid lg:grid-cols-2 items-center gap-10">
+        <div class="text-white">
+          <h1 class="text-4xl md:text-5xl lg:text-[56px] leading-tight font-extrabold max-w-[520px]">
+            Доставка товаров <br />
+            из Великобритании <br />
+            в Россию
+          </h1>
+
+          <p class="mt-6 text-white/80 text-[15px] md:text-base leading-7 max-w-[520px]">
+            Начните экономить до 80% на шопинге. Регистрируйтесь в OkeyPost,
+            чтобы покупать со скидками в UK одежду, обувь, гаджеты и известные
+            бренды и безопасно отправлять вещи в Россию.
+          </p>
+
+          <button class="mt-8 bg-green-400 hover:bg-green-500 text-white px-7 py-4 rounded-full font-semibold shadow-md transition">
+            Получить адрес в UK
+          </button>
+        </div>
+
+        <div class="flex justify-center lg:justify-end">
+          <img
+            src="./img.png"
+            class="w-full max-w-[520px] object-contain"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="py-20">
+      <h2 class="text-[42px] leading-[1.1] font-extrabold text-gray-900 max-w-[420px]">
+        Насколько выгодно <br /> покупать?
+      </h2>
+      <div class="mt-10 bg-white rounded-[26px] shadow-sm px-6 py-5 flex items-center justify-between gap-4 overflow-x-auto">
+        <button class="text-green-400 text-2xl shrink-0">←</button>
+
+        <div class="flex items-center gap-8 min-w-max">
+          <div class="flex items-center gap-3">
+            <img src="./Иконка.png" class="w-10 h-10 object-contain" />
+            <span class="text-gray-800 font-semibold">Одежда</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img src="images/icon-electronics.png" alt="Электроника" class="w-10 h-10 object-contain" />
+            <span class="text-gray-800 font-semibold">Электроника</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img src="images/icon-accessories.png" alt="Аксессуары" class="w-10 h-10 object-contain" />
+            <span class="text-gray-800 font-semibold">Аксессуары</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img src="images/icon-kids.png" alt="Для детей" class="w-10 h-10 object-contain" />
+            <span class="text-gray-800 font-semibold">Для детей</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img src="images/icon-food.png" alt="Для спорта" class="w-10 h-10 object-contain" />
+            <span class="text-gray-800 font-semibold">Для спорта</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img src="images/icon-cosmetics.png" alt="Косметика" class="w-10 h-10 object-contain" />
+            <span class="text-gray-800 font-semibold">Косметика</span>
+          </div>
+        </div>
+
+        <button class="text-green-400 text-2xl shrink-0">→</button>
+      </div>
+      <div class="mt-12 grid lg:grid-cols-[1fr_auto_1fr] items-center gap-8">
+        <div>
+          <h3 class="text-2xl font-semibold text-gray-900 leading-snug max-w-[280px]">
+            Columbia Barlow Pass 550 Turbodown Jacket
+          </h3>
+
+          <div class="mt-10 inline-flex items-center gap-4 bg-white rounded-2xl px-5 py-4 shadow-sm">
+            <img src="images/flag-russia.png" alt="Флаг России" class="w-12 h-8 object-cover rounded" />
+            <div>
+              <p class="text-sm text-gray-400">Цена в России</p>
+              <p class="text-xl font-bold text-gray-900">7891,46₽</p>
+            </div>
+          </div>
+
+          <div class="mt-16 flex items-center gap-4">
+            <img src="images/tshirt.png" alt="Футболка" class="w-20 h-20 object-contain" />
+            <span class="text-green-400 text-2xl">←</span>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="w-[320px] h-[320px] md:w-[380px] md:h-[380px] rounded-full bg-gray-100 mx-auto flex items-center justify-center">
+            <img src="images/jacket.png" alt="Куртка" class="max-w-[75%] max-h-[85%] object-contain" />
+          </div>
+
+          <p class="mt-8 text-gray-400 text-sm">Срок доставки примерно 10 дней</p>
+          <p class="mt-2 text-2xl font-bold text-gray-900">
+            Вы экономите <span class="text-green-400">до $119.56</span>
+          </p>
+        </div>
+
+        <div class="flex flex-col items-start lg:items-end">
+          <div class="max-w-[280px] lg:text-right">
+            <p class="text-2xl font-semibold text-gray-900 leading-snug">
+              Доставка одежды из Великобритании от <span class="text-green-400">£7.79</span>
+            </p>
+          </div>
+
+          <div class="mt-8 inline-flex items-center gap-4 bg-white rounded-2xl px-5 py-4 shadow-sm">
+            <img src="images/flag-uk.png" alt="Флаг Великобритании" class="w-12 h-8 object-cover rounded" />
+            <div>
+              <p class="text-sm text-gray-400">Цена в UK</p>
+              <p class="text-xl font-bold text-green-400">£80.62</p>
+            </div>
+          </div>
+
+          <div class="mt-16 flex items-center gap-4 self-end">
+            <span class="text-green-400 text-2xl">→</span>
+            <img src="images/jeans.png" alt="Джинсы" class="w-20 h-20 object-contain" />
+          </div>
+        </div>
+      </div>
+      <div class="mt-16 bg-white rounded-[26px] shadow-sm grid md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-gray-100 overflow-hidden">
+        <div class="flex items-center gap-4 px-6 py-7">
+          <img src="images/icon-save.png" alt="Экономия до 70%" class="w-12 h-12 object-contain" />
+          <span class="font-semibold text-gray-900 leading-snug">Экономия <br /> до 70%</span>
+        </div>
+
+        <div class="flex items-center gap-4 px-6 py-7">
+          <img src="images/icon-original.png" alt="Только подлинная продукция" class="w-12 h-12 object-contain" />
+          <span class="font-semibold text-gray-900 leading-snug">Только подлинная <br /> продукция</span>
+        </div>
+
+        <div class="flex items-center gap-4 px-6 py-7">
+          <img src="images/icon-fast.png" alt="Оперативная доставка" class="w-12 h-12 object-contain" />
+          <span class="font-semibold text-gray-900 leading-snug">Оперативная <br /> доставка</span>
+        </div>
+
+        <div class="flex items-center gap-4 px-6 py-7">
+          <img src="images/icon-choice.png" alt="Огромный выбор товаров" class="w-12 h-12 object-contain" />
+          <span class="font-semibold text-gray-900 leading-snug">Огромный <br /> выбор товаров</span>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
